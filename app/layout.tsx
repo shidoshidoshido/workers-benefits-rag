@@ -5,6 +5,17 @@ import { CORPUS } from '@/lib/config';
 export const metadata: Metadata = {
   title: CORPUS.appTitle,
   description: CORPUS.metaDescription,
+  openGraph: {
+    title: CORPUS.appTitle,
+    description: CORPUS.metaDescription,
+    type: 'website',
+    siteName: CORPUS.appTitle,
+  },
+  twitter: {
+    card: 'summary',
+    title: CORPUS.appTitle,
+    description: CORPUS.metaDescription,
+  },
 };
 
 export const viewport: Viewport = {
